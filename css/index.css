@@ -18,7 +18,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+    border:0px;
+    /* border: 1px solid black; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -104,7 +105,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,127 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header{
+    display:flex;
+    align-items:flex-end;
+    margin-top:20px;
+}
+
+header nav a{
+    font-size:14px;
+    text-decoration:none;
+    color:black;
+}
+
+header nav{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.topImg{
+    margin:30px 0px;
+}
+
+.box:nth-child(1){
+    background-color: teal;
+}
+
+.box:nth-child(2){
+    background-color: gold;
+}
+
+
+.box:nth-child(3){
+    background-color: cadetblue;
+}
+
+
+.box:nth-child(4){
+    background-color: coral;
+}
+
+
+.box:nth-child(5){
+    background-color: crimson;
+}
+
+
+.box:nth-child(6){
+    background-color: forestgreen;
+}
+
+
+.box:nth-child(7){
+    background-color: darkorchid;
+}
+
+
+.box:nth-child(8){
+    background-color: hotpink;
+}
+
+
+.box:nth-child(9){
+    background-color: indigo;
+}
+
+
+.box:nth-child(10){
+    background-color: dodgerblue;
+}
+
+.about-page .top-content .text-container {
+    width:100%;
+}
+
+.middle-boxes{
+    margin-top:20px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.middleBox{
+    width:48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.middleBox img{
+    margin-bottom:10px;
+}
+
+.middleBox .text-container a{
+    padding: 7px 25px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:100px 0px;
+    color:black;    
+}
+
+.middleBox .text-container {
+    margin-bottom:40px;
+}
+
+.middleBox .text-container p{
+    margin-bottom:40px;
+}
+
+.middleBox .text-container a:hover{
+    background-color: black;
+    color:white;
+    transition: .3s;
+}
+
+.about-page footer{
+    margin-top:40px;
+}
+
+.middle-boxes{
+    margin-bottom: 40px;
 }
